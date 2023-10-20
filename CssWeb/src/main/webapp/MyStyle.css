@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+h1 {
+	color:red;
+	font-family:"Arial Black";
+}
+h2 {
+	color:blue;
+	font-family:"Calibri";
+}
+p{
+	color:green;
+	font-family:"Lucid sans";
+}
+h3{
+	color:orange;
+}
+.myclass{
+	color:purple;
+	font-family:Helvetica;
+	font-style:italic;
+}
+@myid{
+	color:magenta;
+	font-family:Monotype Corsiva;
+}

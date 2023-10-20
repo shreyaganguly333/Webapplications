@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	
+	let arr=["orange","mango","apple","pear","guava","kiwi","lichi","pineapple","banana"];
+	for(let x of arr)
+	{
+		document.write("<h2>&nbsp;&nbsp;&nbsp;&nbsp;"+x+"</h2>");
+	}
+	/*let brr=arr.sort();
+	document.write("-------After Sorting------");
+	for(let x of brr)
+	{
+		document.write("<h3>&nbsp;&nbsp;&nbsp;&nbsp;"+x+"</h3>");
+	}*/
+	document.write("-------Slicing 1---------")
+	let crr=arr.slice(3);
+	for(let x of crr)
+	{
+		document.write("<h3>&nbsp;&nbsp;&nbsp;&nbsp;"+x+"</h3>");
+	}
+	document.write("-------Slicing 2---------")
+	let drr=arr.slice(3,6);
+	for(let x of crr)
+	{
+		document.write("<h3>&nbsp;&nbsp;&nbsp;&nbsp;"+x+"</h3>");
+	}
+	document.write("-------Slicing 3---------")
+	let err=arr.slice(-4);
+	for(let x of crr)
+	{
+		document.write("<h3>&nbsp;&nbsp;&nbsp;&nbsp;"+x+"</h3>");
+	}
+	document.write("-------Slicing 4---------")
+	let frr=arr.slice(-4,-1);
+	for(let x of crr)
+	{
+		document.write("<h3>&nbsp;&nbsp;&nbsp;&nbsp;"+x+"</h3>");
+	}
+</script>
+</head>
+<body>
+<div align="center">
+<h1>Welcome to Javascript</h1>	
+<div id="pqr">
+	
+</div>
+	
+</div>
+</body>
+</html>

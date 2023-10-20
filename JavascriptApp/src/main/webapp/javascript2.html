@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function showText(){
+		document.getElementById("abc").innerHTML="<h2>Hello Everybody</h2>";
+	document.getElementById("xyz").innerText="<h2>Hello Everybody</h2>";
+	let msg=document.getElementById("pqr").innerText;
+	alert(msg);
+	
+	}
+</script>
+</head>
+<body onLoad="showText();">
+<div align="center">
+<h1>Welcome to Javascript</h1>	
+<div id="abc">	
+</div>
+	<hr size="5" color= "yellow"/>
+	<div id="xyz">	
+	</div>
+	<hr size="5" color= "cyan"/>
+	<div id="pqr">	
+		Hi Everybody
+	</div>
+	
+	
+	
+</div>
+</body>
+</html>

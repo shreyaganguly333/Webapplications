@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+<script type="text/javascript" src="Calculator.js"></script>
+</head>
+<body onload="setFocus();">
+<div align="center">
+    <h2>
+        <form id="calculatorForm">
+        Enter First Operand:<input type="text" id="operand1" value="" onblur="checkNumber(this);"/>
+        <br/><br/>
+        Enter Second Operand:<input type="text" id="operand2" value="" onblur="checkNumber(this);"/>
+        <br/><br/>
+        Pick Math Operator:<input type="text" id="operator" list="operatorList"/>
+        <datalist id="operatorList">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="x">x</option>
+            <option value="/">/</option>
+        </datalist>
+        <br/><br/>
+        Result:<input type="text" id="result" onfocus="performCalculation();"/>
+        <br/><br/>
+        <button type="button" onclick="clearAll()">Clear</button>    
+        <br/><br/>
+        </form>
+    </h2>
+</div>
+</body>
+</html>

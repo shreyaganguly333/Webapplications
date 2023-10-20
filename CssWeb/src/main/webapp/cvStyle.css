@@ -1,0 +1,37 @@
+/*@charset "ISO-8859-1";
+h1{
+	color:blue;
+	font-family:"Arial Black";
+}
+h2{
+	color:blueviolet;
+	font-family:"Garamond";
+}
+p{
+	color:orangered;
+		font-family: "Lucide Sans";
+}*/
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+header {
+    padding: 20px;
+    background-color: rgb(17, 124, 143);
+}
+h1 {
+	color: palevioletred;
+	font-family: Comic Sans, cursive;
+}
+h2{
+	color:black;
+	font-family: cursive;
+}
+h3 {
+			color:dimgray;
+			font-family: "Tahoma";
+		}
+p{
+	color:black;
+	font-family: cursive;
+}
